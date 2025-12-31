@@ -1,32 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI & Enrollment Dashboard</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<h1>Student Enrollment Dashboard</h1>
+<header class="header">
+    <h1>📊 EMI Automation & Student Enrollment</h1>
+    <p class="subtitle">Dashboard Overview</p>
+</header>
 
-<div class="cards">
-    <div class="card">
+<section class="cards">
+    <div class="card blue">
         <h3>Total Enquiries</h3>
         <p>120</p>
     </div>
-    <div class="card">
+
+    <div class="card green">
         <h3>Tests Taken</h3>
         <p>80</p>
     </div>
-    <div class="card">
-        <h3>Enrolled</h3>
+
+    <div class="card purple">
+        <h3>Enrolled Students</h3>
         <p>50</p>
     </div>
-</div>
 
-<nav>
-    <a href="./pulic/followup.html">Follow-up</a>
-    <a href="./pulic/enrollment.html">Enrollment</a>
+    <div class="card orange">
+        <h3>EMI Due</h3>
+        <p>18</p>
+    </div>
+</section>
+
+<nav class="nav">
+    <a href="followup.html">Follow-up</a>
+    <a href="enrollment.html">Enrollment</a>
+    <a href="#">EMI Details</a>
 </nav>
+
+<footer class="footer">
+    © 2025 EMI Automation System
+</footer>
 
 </body>
 </html>
